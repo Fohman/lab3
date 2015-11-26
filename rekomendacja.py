@@ -29,7 +29,7 @@ def manhattan(rating1, rating2):
     
     """Oblicz odległość w metryce taksówkowej między dwoma  zbiorami ocen
        danymi w postaci: {'The Strokes': 3.0, 'Slightly Stoopid': 2.5}
-       Zwróć -1, gdy zbiory nie mają… wspólnych elementów"""
+       Zwróć -1, gdy zbiory nie mają wspólnych elementów"""
        
     # TODO: wpisz kod
     klucze1 = rating1.keys()
