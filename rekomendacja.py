@@ -79,4 +79,5 @@ def pearsonNumpy(rating1, rating2):
             x.append(rating1[klucz])
             y.append(rating2[klucz])
     korelacja = numpy.corrcoef(x,y)[0,1]
+    
     return korelacja
